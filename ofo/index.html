@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="index.css" />
+		<link rel="stylesheet" href="jsc/swiper.min.css" />
+		<script src="jsc/swiper.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<div>
+				<img src="logo.png" alt="" />
+			    <ul>
+			    	<li>
+			    		<a href="">首页</a>
+			    		<p></p>
+			    	</li>
+			    	<li>
+			    		<a href="">关于我们</a>
+			    		<p></p>
+			    	</li>
+			    	<li>
+			    		<a href="">下载APP</a>
+			    		<p></p>
+			    	</li>
+			    	<li>
+			    		<a href="">加入我们</a>
+			    		<p></p>
+			    	</li>
+			    </ul>
+			</div>
+		</header>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide" id="swiper1"> <img src="logo33.png"/></div>
+				<div class="swiper-slide" id="swiper2"><img src="logo33.png"/></div>
+				<div class="swiper-slide" id="swiper3"><img src="logo33.png"/></div>
+				<div class="swiper-slide" id="swiper4"></div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+		<section class="sec1">
+			<div  id="secdiv1">
+				<h3>ofo大共享</h3>
+				<a href="">查看详细></a>
+			</div>
+			<div  id="secdiv2">
+				<h3>ofo大共享</h3>
+				<a href="">查看详细></a>
+			</div>
+			<div  id="secdiv3">
+				<h3>ofo大共享</h3>
+				<a href="">查看详细></a>
+			</div>
+			<div  id="secdiv4">
+				<h3>ofo大共享</h3>
+				<a href="">查看详细></a>
+			</div>
+		</section>
+		<footer>
+			<img src="footer_logo.png" alt="" class="fimg1" />
+			<p class="fp1">4001 507 507(周一至周日:7:00-23:00)</p>
+			<p>北京市海淀区四环西路58号理想国际大厦11层</p>
+			<div><a href="" class="fa1"></a><a href="" class="fa2"></a></div>
+			<p class="lastp">Copyright © 2017 ofo Inc. 保留所有权利。京公网安备 11010802022978号   |   公共事务邮箱 gr@ofo.so 商务合作邮箱 bdinchina@ofo.so</p>
+		</footer>
+		<script>
+			myswiper=new Swiper(".swiper-container",{
+				autoplay:"2000",
+				loop:true,
+				pagination: '.swiper-pagination',
+				paginationClickable:true,
+				autoplayDisableOnInteraction : false
+			
+				  
+			})
+		</script>
+	</body>
+</html>
