@@ -48,7 +48,15 @@ header {
                      font-size: 1.3rem;
                     
                 }
-                                  
+                    
+                    p{
+                    transition: 0.5s;
+                    position: absolute;
+                    height: 0.5px;
+                    bottom: 0px;
+                    background: #fff;
+                    width: 0px;
+                    }              
                 &:hover{
                     a{
                        color: #fff; 
@@ -59,16 +67,7 @@ header {
                     
                 }
                 
-                p{
-                   
-                    
-                    transition: 0.5s;
-                    position: absolute;
-                    height: 0.5px;
-                    bottom: 0px;
-                    background: #fff;
-                    width: 0px;
-                }
+                
             }
         }
     }
